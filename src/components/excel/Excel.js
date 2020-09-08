@@ -33,7 +33,6 @@ export class Excel {
 	}
 
 	init() {
-		console.log(process.env.NODE_ENV);
 		if (process.env.NODE_ENV === 'production') {
 			document.addEventListener('contextmenu', preventDefault)
 		}
